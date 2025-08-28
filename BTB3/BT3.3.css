@@ -1,0 +1,138 @@
+:root{--a:#2dd1d6;--b:#165d5d;--bg:#51bdd0;--panel:rgb(21, 83, 98);--r:12px}*
+{box-sizing:border-box}html,
+
+body{
+    height:100%;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:radial-gradient(circle at 10% 20%,#25b7c2,var(--bg));
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:36px}
+
+.page-wrap{
+    width:100%;
+    max-width:1000px}
+
+.login-card{
+    display:flex;
+    border-radius:var(--r);
+    overflow:hidden;
+    box-shadow:0 18px 50px rgba(0,0,0,.6);
+    background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(0,0,0,.05))}
+
+.left{
+    padding:32px}
+
+.left h1{
+    margin: 20px;
+    font-size:40px;
+    color:#000000}
+
+.login-form label{
+    font-weight: 800;
+    display:block;
+    margin:8px 0 5px;
+    font-weight:600;
+    color:rgba(0, 0, 0, 0.6);
+    font-size:15px}
+
+.login-form input{
+    font-weight: 600;
+    width:100%;
+    padding:12px;
+    border-radius:10px;
+    border:0;
+    background:#f7ffff;
+    margin-bottom:8px;
+    color:#006067}
+
+.options{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-top:14px}
+
+.options p{
+    font-size: 12px;
+    font-weight: 800;
+    display: block;
+    margin-right: 55px;
+}
+
+.options label input{
+    font-size: 12px;
+    max-width: 100px;
+    margin-top: 6px;
+    margin-left: 35px;
+}
+
+.btn{
+    padding:10px 26px;
+    border-radius:10px;
+    border:0;
+    font-weight:700;
+    cursor:pointer}
+
+.btn.primary{
+    font-weight: 800;
+    color: #000000;
+    background-color: #15a9a9;
+    box-shadow: 0 3px #084949;
+}
+
+.right{
+    width:230px;
+    padding:20px;
+    background:linear-gradient(180deg,var(--panel),#6f777a);}
+
+.logo{
+    font-size: 30px;
+    font-weight:800;
+    text-align:center;
+    display: block;
+    margin-bottom:12px}
+
+.logo nav{
+    font-size: 16px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.logo nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo span {
+    color:#114747 ;
+}
+
+
+.demo-row{
+    margin-left: 10px;
+    display: flex;
+    gap:90px;
+    margin-top:16px}
+    
+.demo-row .label{
+    text-align: center;
+    font-weight: 800;   
+}
+
+.demo{
+    font-size: 15px;
+    width:110px;
+    padding:9px;
+    border-radius:10px;
+    background: rgb(28, 193, 193);
+    box-shadow:0 3px 0 black;
+    font-weight:800;}
+
+.label{
+    margin-top:8px;
+    color:rgb(0, 0, 0);
+    font-size:15px}
+    
+   

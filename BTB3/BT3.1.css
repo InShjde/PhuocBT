@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #db9e9e; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  background: #fff;
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px black;
+  overflow: auto;
+}
+
+.box h2 {
+  text-align: center;
+  padding: 20px;
+  color: red; 
+  margin: 0;
+}
+
+.form {
+  padding: 20px;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 25px;
+  background: #f1f1f1;
+  outline: none;
+  font-size: 14px;
+}
+
+.form .options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.form .options a {
+  color: red;
+  text-decoration: none;
+}
+
+.form button {
+  width: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  background: red;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  float: right;
+  transition: 3ms;
+}
+
+.form button:hover {
+  background: rgb(146, 2, 2); 
+}
+
+.footer {
+  background: linear-gradient(to right, #f45c43, #eb3349);
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+}
+
+.footer a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
